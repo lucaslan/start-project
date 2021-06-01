@@ -39,13 +39,12 @@ colourize() {
 
 function create_readme {
 cat << 'EOF'
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
 # Project's name
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
+
 * [About The Project](#About-The-Project)
 * [Project architecture](#Project-architecture)
 * [API call sample](#API-call-sample)
@@ -54,13 +53,13 @@ cat << 'EOF'
 * [License](#License)
 
 ## About The Project
+
 `bla` is a super cool project!
 
-
 ## Project architecture
+
 ![Project architecture](architecture.png)
 you can remove it if there is nothing to add here :)
-
 
 ## API call sample
 
@@ -71,39 +70,47 @@ you can remove it if there is nothing to add here :)
 }
 ```
 
-
 ## Built With
-* Python 3.7
-* bash
-* love
 
+* Python 3.7
+
+* bash
+
+* love
 
 ## How to setup
 
 1. Clone the repo
+
     ```bash
     git clone **repo link here**
     ```
+
 2. Create a virtual environment
+
     ```bash
     python3 -m venv .venv
     ```
+
 3. Source the virtual environment and install the project's requirements if required
+
     ```bash
     source .venv/vin/activate
     ```
+
     ```bash
     if [[ -f requirements.txt ]]; then pip3 install -r requirements
     ```
-3. Run the project
+
+4. Run the project
+
     ```bash
     python3 bla.py
     ```
 
-
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
 
+Distributed under the MIT License. See `LICENSE` for more information.
 EOF
 }
 
@@ -131,7 +138,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 EOF
 }
 
@@ -143,7 +149,6 @@ cat << EOF
 .vscode
 *.log
 playground/*
-
 EOF
 }
 
