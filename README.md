@@ -36,7 +36,7 @@ And if the those files are already there, it will not overwrite it, so you will 
 1. Clone the repo
 
     ```bash
-    git clone **repo link here**
+    git clone https://github.com/lucaslan/start-project
     ```
 
 2. Move it to your `bin` folder
